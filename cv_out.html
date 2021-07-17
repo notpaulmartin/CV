@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+ <html><head><meta charset="utf-8" /><style>@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Source+Sans+Pro:wght@400;600&display=swap");
+* {
+  font-family: "Source Sans Pro";
+  font-size: 14px; }
+
+body {
+  padding: 0 80px;
+  margin: 0;
+  height: max-content; }
+
+.head {
+  margin-bottom: 40px;
+  width: 100%;
+  display: flex;
+  display: -webkit-box;
+  /* wkhtmltopdf uses this one */
+  justify-content: center;
+  -webkit-box-pack: center;
+  /* wkhtmltopdf uses this one */ }
+  .head ul {
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+    border: none; }
+    .head ul li:first-of-type:before {
+      margin-left: 0;
+      margin-right: 0;
+      content: none; }
+    .head ul li {
+      float: left; }
+    .head ul li:before {
+      margin-left: 20px;
+      margin-right: 20px;
+      content: "•"; }
+
+.left {
+  float: left;
+  width: 204px;
+  margin-right: 20px;
+  padding: 0 10px;
+  text-align: center; }
+  .left * {
+    display: block;
+    padding: 0;
+    border-left: none; }
+  .left h2 {
+    text-align: center;
+    width: 100%;
+    padding: 0; }
+    .left h2:first-of-type {
+      margin-top: 0; }
+  .left p {
+    padding-left: initial; }
+  .left p::before {
+    display: none; }
+
+.right {
+  float: right;
+  width: 476px;
+  width: -webkit-calc(70% - 500px); }
+
+ul {
+  list-style: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' preserveAspectRatio='xMidYMid meet' viewBox='123.59770114942413 197.85057471264219 14.000000000000028 14' width='5' height='5'%3E%3Cdefs%3E%3Cpath d='M134.6 203.85C134.6 206.61 132.36 208.85 129.6 208.85C126.84 208.85 124.6 206.61 124.6 203.85C124.6 201.09 126.84 198.85 129.6 198.85C132.36 198.85 134.6 201.09 134.6 203.85Z' id='c1hU3AEwCg'%3E%3C/path%3E%3C/defs%3E%3Cg%3E%3Cg%3E%3Cuse xlink:href='%23c1hU3AEwCg' opacity='1' fill='%23000000' fill-opacity='1'%3E%3C/use%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); }
+
+a {
+  color: black; }
+
+h1 {
+  font-family: "Oswald";
+  word-spacing: .2em;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 35px 0 0 0;
+  margin: 0;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center; }
+
+h2 + p {
+  display: flex;
+  display: -webkit-box;
+  padding-top: 0; }
+  h2 + p:before {
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' preserveAspectRatio='xMidYMid meet' viewBox='137.62607204116637 141.1252144082333 54.490566037735874 54.49056603773582' width='38.49' height='38.49'%3E%3Cdefs%3E%3Cpath d='M184.12 168.37C184.12 178.99 175.49 187.62 164.87 187.62C154.25 187.62 145.63 178.99 145.63 168.37C145.63 157.75 154.25 149.13 164.87 149.13C175.49 149.13 184.12 157.75 184.12 168.37Z' id='bocXgSV8U'%3E%3C/path%3E%3C/defs%3E%3Cg%3E%3Cg%3E%3Cuse xlink:href='%23bocXgSV8U' opacity='1' fill='%23c71df7' fill-opacity='0'%3E%3C/use%3E%3Cg%3E%3Cuse xlink:href='%23bocXgSV8U' opacity='1' fill-opacity='0' stroke='%23000000' stroke-width='16' stroke-opacity='1'%3E%3C/use%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-size: contain;
+    background-color: white;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-radius: 0 0 4px 4px;
+    width: 7px;
+    height: 7px;
+    content: "";
+    display: block;
+    position: relative;
+    margin-right: -7px;
+    top: .45em;
+    left: -22.4px; }
+  h2 + p:before {
+    height: 25px;
+    top: -11.5px; }
+
+h2 + h3 {
+  display: flex;
+  display: -webkit-box;
+  padding-top: 0;
+  height: 18px; }
+  h2 + h3:before {
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' preserveAspectRatio='xMidYMid meet' viewBox='137.62607204116637 141.1252144082333 54.490566037735874 54.49056603773582' width='38.49' height='38.49'%3E%3Cdefs%3E%3Cpath d='M184.12 168.37C184.12 178.99 175.49 187.62 164.87 187.62C154.25 187.62 145.63 178.99 145.63 168.37C145.63 157.75 154.25 149.13 164.87 149.13C175.49 149.13 184.12 157.75 184.12 168.37Z' id='bocXgSV8U'%3E%3C/path%3E%3C/defs%3E%3Cg%3E%3Cg%3E%3Cuse xlink:href='%23bocXgSV8U' opacity='1' fill='%23c71df7' fill-opacity='0'%3E%3C/use%3E%3Cg%3E%3Cuse xlink:href='%23bocXgSV8U' opacity='1' fill-opacity='0' stroke='%23000000' stroke-width='16' stroke-opacity='1'%3E%3C/use%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-size: contain;
+    background-color: white;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-radius: 0 0 4px 4px;
+    width: 7px;
+    height: 7px;
+    content: "";
+    display: block;
+    position: relative;
+    margin-right: -7px;
+    top: .45em;
+    left: -22.4px; }
+  h2 + h3:before {
+    height: 25px;
+    top: -11.5px; }
+
+h2 {
+  font-family: "Oswald";
+  word-spacing: .2em;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  margin: 0;
+  border-left: solid 2px black;
+  padding-left: 18px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: none;
+  padding-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  line-height: 150%; }
+  h2:first-of-type {
+    margin-top: 0; }
+
+h3 {
+  margin: 0;
+  border-left: solid 2px black;
+  padding-left: 18px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  display: flex;
+  display: -webkit-box;
+  padding-top: 15px; }
+  h3:before {
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' preserveAspectRatio='xMidYMid meet' viewBox='137.62607204116637 141.1252144082333 54.490566037735874 54.49056603773582' width='38.49' height='38.49'%3E%3Cdefs%3E%3Cpath d='M184.12 168.37C184.12 178.99 175.49 187.62 164.87 187.62C154.25 187.62 145.63 178.99 145.63 168.37C145.63 157.75 154.25 149.13 164.87 149.13C175.49 149.13 184.12 157.75 184.12 168.37Z' id='bocXgSV8U'%3E%3C/path%3E%3C/defs%3E%3Cg%3E%3Cg%3E%3Cuse xlink:href='%23bocXgSV8U' opacity='1' fill='%23c71df7' fill-opacity='0'%3E%3C/use%3E%3Cg%3E%3Cuse xlink:href='%23bocXgSV8U' opacity='1' fill-opacity='0' stroke='%23000000' stroke-width='16' stroke-opacity='1'%3E%3C/use%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-size: contain;
+    background-color: white;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-radius: 0 0 4px 4px;
+    width: 7px;
+    height: 7px;
+    content: "";
+    display: block;
+    position: relative;
+    margin-right: -7px;
+    top: .45em;
+    left: -22.4px; }
+
+h4 {
+  margin: 0;
+  border-left: solid 2px black;
+  padding-left: 18px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  color: gray;
+  font-weight: 400; }
+
+p {
+  margin: 0;
+  border-left: solid 2px black;
+  padding-left: 18px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding-top: 5px; }
+
+ul {
+  margin: 0;
+  border-left: solid 2px black;
+  padding-left: 18px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding-top: 5px;
+  padding-left: 48px; }
+</style></head><body><h1>Paul Martin</h1><div class="head"><ul><li>3rd year Computer Science UG</li><li>University of Edinburgh</li></ul></div><section class="left"><h2>Details</h2><p>
+Blocklander Str. 28
+28215 Bremen  
+Germany  
++49 (0)15776419505  
+<a href="mailto:paul.martin.ger@gmail.com">paul.martin.ger@gmail.com</a></p><h2>Links</h2><ul><li><a href="https://paulmartin.io">Personal website</a></li><li><a href="https://github.com/notpaulmartin">GitHub</a></li><li><a href="https://linkedin/in/notpaulmartin">LinkedIn</a></li></ul><h2>Languages</h2><ul><li>English (native)</li><li>German (native)</li><li>Spanish (learning)</li></ul><h2>Other interests</h2><ul><li>Reading classics</li><li>Running</li><li>Snowboarding</li><li>Amateur photography</li><li>Economics and Finance</li></ul></section><section class="right"><h2>Profile</h2><p>
+Highly motivated Computer Science student at one of the UK's leading Universities with a passion for taking on new challenges. Results oriented with a solid track-record of working collaboratively with team members to achieve goals. Experienced in Software Engineering with an eye for the broader picture.</p><h2>Education</h2><h3>The University of Edinburgh</h3><h4>BEng Computer Science (2019-23)</h4><ul><li>Averages in years 1 and 2: A3, A2</li><li>Courses in Programming, Logic, AI, DataScience, Algorithms, Computer Architecture</li><li>Exchange year at <em>The University of Hong Kong</em> (2021-22)</li></ul><h3>International School of Bremen</h3><h4>International Baccalaureate (grad. 2019)</h4><h2>Experience and Extra-curriculars</h2><h3>Radio-frequency licensing specialist</h3><h4>Asteria: Space and Satellites (2020-21)</h4><ul><li>Investigate and coordinate frequency licensing process for our satellite</li><li>Attend workshops on organising a satellite launch by the UK Satellite Finance Network</li><li>Configure radio communication between a High-Altitude-Balloon and the chase vehicle, as a Software Engineer</li></ul><h3>Software Project Manager</h3><h4>HYPED: Uni of Edinburgh Hyperloop team (2019-20)</h4><ul><li>Successfully lead the telemetry team to re-engineer our wireless communication</li><li>Implement a new Over-The-Air system for easier visual analysis and debugging of system metrics</li></ul><h3>Founder and CEO</h3><h4>build-yours.de (2017-19)</h4><ul><li>Co-found a tech company that develops and sells DIY kits for innovative home accessoirs, especially designer-clocks</li><li>Completely develop software of our products and online-shop from scratch to allow for our special needs</li><li>Collaborate on creating the supply chain, including travel to Africa for this purpose</li><li>Orchestrate transition from selling DIY kits to fully functional, pre-built products, leading to the current success of the company</li><li>Left the company in December 2019 to focus on my studies and engage in other activities</li></ul><h2>Personal Projects</h2><h3>Markdown parser written in Go from scratch</h3><h4>Used to create this CV</h4><h3>Investigation into Principal Components Analysis</h3><h4>Developed a more intuitive PCA algorithm as I got interested in it as part of my Data Science course</h4><h3>Investigation into Bayesian Networks with Haskell</h3><h4>Developed software to efficiently represent and calculate with interdependent Probabilistic Random Variables</h4><h3><a href="https://github.com/notpaulmartin">Many more to be found on my GitHub</a></h3></section></body></html>
