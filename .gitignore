@@ -1,6 +1,8 @@
 .DS_Store
 .idea
 
+go.sum
+
 # Compiled executable
 buildCV
 
