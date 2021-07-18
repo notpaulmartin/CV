@@ -1,9 +1,12 @@
-# Paul's CV
+### 👋 Hi, I'm Paul and this is my CV.
 
-Written in Markdown, compiled to HTML using my own [Markdown parser](https://github.com/notpaulmartin/mdParser) and then saved to PDF.
+It's written in Markdown, compiled to HTML using my own [Markdown parser](https://github.com/notpaulmartin/mdParser) and then saved to PDF.
 
-## Compiling the CV
-The content is in `cv.md` and the styling is in `styling.scss`
+**Why Markdown?**  
+It is easy to read, yet very flexible.
+
+**Compiling the CV**  
+The content is in `cv.md` and the styling is in `styling.scss`.
 
 1. Build executable:
     ```shell script
