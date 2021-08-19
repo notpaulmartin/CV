@@ -5,6 +5,7 @@ go.sum
 
 # Compiled executable
 buildCV
+bin
 
 # Compiled SCSS
 *.css.map
