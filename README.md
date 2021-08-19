@@ -1,9 +1,10 @@
-### 👋 Hi, I'm Paul and this is my CV.
+### 👋 Hi, I'm Paul and [this](https://raw.githubusercontent.com/notpaulmartin/CV/main/cv_out.pdf) is my CV.
 
-It's written in Markdown, compiled to HTML using my own [Markdown parser](https://github.com/notpaulmartin/mdParser) and then saved to PDF.
+Written in Markdown.  
+Compiles to PDF with my own [Markdown parser](https://github.com/notpaulmartin/mdParser).
 
 **Why Markdown?**  
-It is easy to read, yet very flexible.
+It is easy to read and very flexible.
 
 **Compiling the CV**  
 The content is in `cv.md` and the styling is in `styling.scss`.
