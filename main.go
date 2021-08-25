@@ -21,7 +21,7 @@ const (
 	mdFname   = "cv.md"
 	sassFname = "styling.scss"
 	htmlFname = "cv_out.html"
-	pdfFname  = "cv_out.pdf"
+	pdfFname  = "cv_pmartin.pdf"
 )
 
 func main() {

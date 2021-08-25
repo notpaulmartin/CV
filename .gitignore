@@ -11,4 +11,8 @@ bin
 *.css.map
 *.css
 
+# Compiled HTML
+*.html
+
+cv_general.md
 test1
