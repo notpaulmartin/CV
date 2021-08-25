@@ -13,7 +13,6 @@
 <section class="left">
 
 ## Contact
-- Hong Kong
 - +44 (0) 7785 296197
 - [paul.martin.ger@gmail.com](mailto:paul.martin.ger@gmail.com)
 
