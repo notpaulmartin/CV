@@ -1,5 +1,6 @@
 .DS_Store
 .idea
+.vscode
 
 go.sum
 
@@ -16,3 +17,6 @@ bin
 
 cv_general.md
 test1
+
+# Templates
+md_templates

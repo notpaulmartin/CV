@@ -13,3 +13,10 @@ To compile the CV from Markdown to PDF, just run
 ```shell script
 make
 ```
+
+The fonts used are:
+- [Lato](https://fontsource.org/fonts/lato)
+- [Souce Sans Pro](https://fontsource.org/fonts/source-sans-pro)
+- [Oswald](https://fontsource.org/fonts/oswald)
+
+Install them before compiling.

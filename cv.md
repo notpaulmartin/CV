@@ -3,103 +3,122 @@
 
 <div class="head">
 
-- 3rd year Computer Science UG
-- University of Edinburgh
-- University of Hong Kong
+- The University of Edinburgh
+- Informatics student (MInf)
 
 </div>
 
+
+<div class="profile">
+Pursuing advanced studies in Informatics with a specialization in deep learning, model compression, and distributed neural network training optimizers. Passionate about computational biology, neuroscience, and NLP, and adept at employing analytical and numerical methods to propel domain research. Enjoys photography, hiking, and running outside of the research realm.
+</div>
+
+
+<article>
 
 <section class="left">
 
 ## Contact
 - +44 (0) 7785 296197
-- [paul.martin.ger@gmail.com](mailto:paul.martin.ger@gmail.com)
+- [pmartin4@ed.ac.uk](mailto:pmartin4@ed.ac.uk)
 
-## Interests in Informatics
-- Data Science / Big Data
-- Computational Finance
-- Computer Architecture
+## Website
+- [PaulsBitsAndBytes.com](https://PaulsBitsAndBytes.com)
 
-## Programming Languages
-- Go
-- JavaScript
-- Python
-- Java
-- Haskell
-- C / C++
-- MIPS Assembly
+## Research Interests
+- Foundational Deep Learning
+- Comput' Molecular Biology
+- Computational Neuroscience
+- Natural Language Processing
 
-## Other interests
+## Other Interests
 - Photography
-- Reading classics
-- Economics and Finance
-- Long-distance running
-- Snowboarding
+- Long distance running
+- Hiking in the Scottish Highlands
 
 ## Languages
 - English (native)
 - German (native)
 - Spanish (learning)
 
-## Links
-- [Personal website](https://paulmartin.io)
-- [GitHub](https://github.com/notpaulmartin)
-- [LinkedIn](https://linkedin/in/notpaulmartin)
-
-</section>
-
+</section> 
 
 
 <section class="right">
 
-## Profile
-Highly motivated Computer Science student studying at the world's leading Universities with a passion for taking on new challenges. Results oriented with a solid track-record of working collaboratively with team members to achieve goals. Experienced in Software Engineering with an eye for the broader picture.
-
 ## Education
 
-### The University of Edinburgh & The University of Hong Kong
-#### BEng Computer Science (2019-23)
-- On track for a 1st class Honours
-- Courses in AI, DataScience, Algorithms, amongst others
-- Study on Scottish Mountaineering using Machine Learning techniques
+### MInf Computer Science
+#### University of Edinburgh (2019 - 2024)
+<!-- TODO: 76% for Bachelor's -->
+<!-- TODO: bachelor's achieved 80% (A2) -->
+- Specializing in Deep Learning and engaging in research in distributed optimization of neural networks for Master’s Thesis
+- Achieved an 80% in my Bachelor's Thesis (see below) and 76% overall.
 
-### International School of Bremen
-#### International Baccalaureate (grad. 2019)
-
-
-## Experience and Extra-curriculars
-
-### Operations Specialist for Radio-frequency licensing
-#### Asteria: Space and Satellites (2020-21)
-- Responsible for frequency licensing process of our satellite
-- Attend workshops on organising a satellite launch by the UK Satellite Finance Network
-- Helped as a Software Engineer for radio communications
-
-### Software Project Manager
-#### HYPED: Uni of Edinburgh Hyperloop team (2019-20)
-- Successfully lead the telemetry team to re-engineer the wireless communication
-- Implement a new Over-The-Air system for easier visual analysis and debugging of system metrics
-
-### Founder and CEO
-#### build-yours.de (2017-19)
-- **Co-found tech company** developing DIY kits for innovative home accessoirs, especially designer-clocks
-- Engineer the software of our products and online-shop to allow for our unique requirements
-- Build and coordinate part of our supply chain, including travel to Africa for this purpose
-- **Orchestrate business transition** away from DIY kits, leading to the current success of the company
-- Left the company in December 2019 to focus on my studies and engage in other activities
+### Exchange Year
+#### University of Hong Kong (2021 - 2022)
+- Engaged in a diverse set of coursework expanding computational and international perspectives
 
 
-## Personal Projects
-### Investigation into the Machine Learning technique of PCA
-#### Developed a more intuitive algorithm for Principal Component Analysis as I got interested in it as part of my Data Science course
+## Experience
 
-### Markdown-parser written from scratch
-#### Converted this CV from Markdown to PDF
+### Teaching Assistant for Machine Learning
+#### The University of Edinburgh (AY 2023/24)
+- Facilitating student learning in machine learning through in-person and online assistance, providing clarifications and guidance on practical applications and theoretical concepts in ML techniques.
 
-### Investigation into Bayesian Networks with Haskell
-#### Developed software to efficiently represent and calculate with interdependent Probabilistic Random Variables
+### Research Assistant Intern
+#### With Kartic Subr, The University of Edinburgh (Summer 2023)
+- Spearheaded research on using Graph Neural Networks for spectral coarsening of 3D meshes
+- Aiming to submit a paper later this year, or early 2024.
 
-### [Many more to be found on my GitHub](https://github.com/notpaulmartin)
+### Tutor for Machine Learning
+#### The University of Edinburgh (AY 2022/23)
+- Led a series of workshops for a Machine Learning course taken by 3rd and 4th-year informatics students to support their studies of ML techniques
+
+### ML & Data Science Intern
+#### Migrasia Global Solutions (Sep - Dec 2021)
+- Served as an ML Engineer developing analytical tools to aid in combatting forced labour amongst refugees and migrant workers in Hong Kong.
+<!-- - Engineered a multilingual sentiment analysis tool and a topic classifier for Facebook messages, and delved into investigating biases in Hong Kong's judiciary using data analytics -->
+
+<!-- ### Founder and CEO
+#### build-yours.de (2017 - 2019)
+- Co-founded and propelled a tech start-up to profitability, offering DIY home accessory kits. I managed all facets from product engineering to interational supply chain, before transitioning to academic pursuits
+
+### Advanced Mathematics Teacher (Extracurricular)
+#### Mathematik in Bremen! e.V. (2015 - 2019)
+- Developed and delivered enriching mathematics content for 12-16 year-old students through an engaging flipped-classroom teaching style, exploring topics beyond the standard curriculum -->
 
 </section>
+
+</article>
+
+## Resarch Projects
+#### [See my website for more research projects](https://PaulsBitsAndBytes.com)
+### Master's Thesis: Distributed Optimisation of Deep Neural Networks
+Researching optimisers for the distributed training of deep neural networks, contributing to the field of scalable, efficient neural network training
+
+### Spectral Coarsening using GNNs
+Explored using Graph Neural Networks to significantly accelerate the determination of parameter sets for 3D meshes, enhancing the efficiency of subsequent physics simulations on these meshes.
+
+<!-- TODO: Worked with Loss function with unknown derivative -->
+
+### Bachelor’s Thesis: Cross-Architecture Knowledge Distillation for Automatic Speech Recognition
+Achieved an **80% mark** developing knowledge distillation techniques for models with mismatched output dimensions, providing insights into effective model compression strategies and the tradeoffs between various architectures.
+
+
+<!-- ### Predicting Pollution in Krakow
+#### Using temperature and precipitation-forecasts to accurately predict pollution in Krakow, Poland several days ahead, to generate weather warnings. -->
+
+<!-- ### Markdown-parser written in Go
+#### Used to build this CV -->
+
+
+<!-- ### Investigating Biases in the Hong Kong Judiciary
+#### Quantifying the racial bias by using Data Science techniques to process 4,743 transcripts of court hearings between 2014 and 2021. -->
+
+<!-- ### Intuitive approximation for teaching and understanding PCA
+#### Created a more approachable algorithm for Principal Component Analysis by reworking the initial explanation taught to me -->
+
+<!-- ### Investigation into Bayesian Networks with Haskell
+#### Developed software to efficiently represent and calculate with interdependent Probabilistic Random Variables -->
+

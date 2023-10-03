@@ -3,18 +3,20 @@ package main
 import (
 	"bytes"
 	"fmt"
-	"github.com/yuin/goldmark/renderer/html"
 	"io/ioutil"
 	"log"
 	"os"
 	"strings"
 
-	"github.com/SebastiaanKlippert/go-wkhtmltopdf"
 	"github.com/notpaulmartin/mdParser"
-	"github.com/wellington/go-libsass"
+
 	"github.com/yuin/goldmark"
 	"github.com/yuin/goldmark/extension"
 	"github.com/yuin/goldmark/parser"
+	"github.com/yuin/goldmark/renderer/html"
+
+	"github.com/SebastiaanKlippert/go-wkhtmltopdf"
+	"github.com/bep/godartsass/v2"
 )
 
 const (
@@ -33,7 +35,7 @@ func main() {
 
 	// convert md to html
 	htmlChan := make(chan string)
-	go myMdToHtml(mdBytes, htmlChan)
+	go mdToHtml(mdBytes, htmlChan) // NOTE: myMdToHtml uses my custom markdown parser
 
 	// convert scss to css
 	cssChan := make(chan string)
@@ -41,18 +43,18 @@ func main() {
 
 	// join html with css
 	html := "<!DOCTYPE html>\n <html>" +
-				"<head>" +
-					"<meta charset=\"utf-8\" />" +
-					"<style>" +
-						<-cssChan +
-					"</style>" +
-				"</head>" +
-				"<body>" +
-					<-htmlChan +
-				"</body>" +
-			"</html>"
+		"<head>" +
+		"<meta charset=\"utf-8\" />" +
+		"<style>" +
+		<-cssChan +
+		"</style>" +
+		"</head>" +
+		"<body>" +
+		<-htmlChan +
+		"</body>" +
+		"</html>"
 
-	saveHtml(html, "./" + htmlFname)
+	saveHtml(html, "./"+htmlFname)
 
 	// Convert to PDF
 	pdfg := htmlToPdf(html)
@@ -93,24 +95,21 @@ func myMdToHtml(mdBytes []byte, c chan string) {
 
 func parseSass(fname string, c chan string) {
 	// Read input Sass string from file
-	fromBuf, err := os.Open(fname)
+	scssBytes, err := ioutil.ReadFile(fname)
 	if err != nil {
-		log.Panic("Could not open sass file")
+		log.Panic("Could not read input file: " + mdFname)
 	}
 
-	// Create compiler
-	toBuf := new(bytes.Buffer)
-	comp, err := libsass.New(toBuf, fromBuf)
-	if err != nil {
-		log.Fatal(err)
+	transpiler, _ := godartsass.Start(godartsass.Options{})
+
+	args := godartsass.Args{
+		OutputStyle: godartsass.OutputStyleExpanded,
+		Source:      string(scssBytes),
 	}
 
-	// Compile
-	if err := comp.Run(); err != nil {
-		log.Fatal(err)
-	}
+	result, _ := transpiler.Execute(args)
 
-	c <- toBuf.String()
+	c <- result.CSS
 }
 
 func saveHtml(html string, fname string) {
