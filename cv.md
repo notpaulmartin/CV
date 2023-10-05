@@ -4,7 +4,7 @@
 <div class="head">
 
 - The University of Edinburgh
-- Informatics student (MInf)
+- MInf Informatics
 
 </div>
 
@@ -19,16 +19,16 @@ Pursuing advanced studies in Informatics with a specialization in deep learning,
 <section class="left">
 
 ## Contact
-- +44 (0) 7785 296197
 - [pmartin4@ed.ac.uk](mailto:pmartin4@ed.ac.uk)
+- +44 (0) 7785 296197
 
 ## Website
 - [PaulsBitsAndBytes.com](https://PaulsBitsAndBytes.com)
 
 ## Research Interests
 - Foundational Deep Learning
-- Comput' Molecular Biology
 - Computational Neuroscience
+- Comput' Molecular Biology
 - Natural Language Processing
 
 ## Other Interests
@@ -48,7 +48,7 @@ Pursuing advanced studies in Informatics with a specialization in deep learning,
 
 ## Education
 
-### MInf Computer Science
+### MInf Informatics
 #### University of Edinburgh (2019 - 2024)
 <!-- TODO: 76% for Bachelor's -->
 <!-- TODO: bachelor's achieved 80% (A2) -->
@@ -64,7 +64,7 @@ Pursuing advanced studies in Informatics with a specialization in deep learning,
 
 ### Teaching Assistant for Machine Learning
 #### The University of Edinburgh (AY 2023/24)
-- Facilitating student learning in machine learning through in-person and online assistance, providing clarifications and guidance on practical applications and theoretical concepts in ML techniques.
+- Facilitating student learning in ML through in-person and online assistance, providing clarifications and guidance on practical applications and theoretical concepts in ML techniques.
 
 ### Research Assistant Intern
 #### With Kartic Subr, The University of Edinburgh (Summer 2023)
