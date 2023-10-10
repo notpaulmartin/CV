@@ -7,7 +7,8 @@ $fontColour: black;
 
 $sidebarWidth: .27 * $A4_WIDTH_PX;
 
-$headBodyGap: 40px;
+$headTopGap: 10px; //35px;
+$headBodyGap: 30px; //40px;
 $rightIndent: 20px;  // Indent of the right (main) section
 $leftLineWidth: 2px;  // Width of the left "timeline" of the main section
 $paddingLeft: $rightIndent - $leftLineWidth;
@@ -144,6 +145,10 @@ article {
     padding: 0;
   }
 
+  li {
+    padding-bottom: 2px;
+  }
+
   p {
     padding-left: initial;
   }
@@ -236,7 +241,7 @@ h1 {
   @include _title;
   letter-spacing: 1px;
 
-  padding: 35px 0 0 0;
+  padding: $headTopGap 0 0 0;
   margin: 0;
   font-size: 40px;
   font-weight: 400;
@@ -280,6 +285,15 @@ h3 {
   @include _circle;
   padding-top: 20px;
   // font-size: 16px;
+
+  span.status {
+    color: gray;
+    font-weight: 400;
+    padding-left: 5px;
+
+    &::before {content: "(";}
+    &::after {content: ")";}
+  }
 }
 
 // Additional info

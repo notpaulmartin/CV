@@ -8,11 +8,11 @@
 
 </div>
 
-
 <div class="profile">
-Pursuing advanced studies in Informatics with a specialization in deep learning, model compression, and distributed neural network training optimizers. Passionate about computational biology, neuroscience, and NLP, and adept at employing analytical and numerical methods to propel domain research. Enjoys photography, hiking, and running outside of the research realm.
+<!-- TODO: add info about computational neuro / comp' molecular bio -->
+I am an Informatics student at The University of Edinburgh, passionate about improving the efficiency of deep learning models to enable their further research and application by individuals and academia. With a strong academic background in this field, I actively contribute to foundational deep learning research for natural language processing.
+<!-- Outside of academia, I find inspiration in photography, long-distance running, and hiking in the Scottish Highlands. -->
 </div>
-
 
 <article>
 
@@ -25,21 +25,28 @@ Pursuing advanced studies in Informatics with a specialization in deep learning,
 ## Website
 - [PaulsBitsAndBytes.com](https://PaulsBitsAndBytes.com)
 
+## Awards
+- 80% thesis mark
+- 77% degree average
+
 ## Research Interests
 - Foundational Deep Learning
+- Natural Language Processing
 - Computational Neuroscience
 - Comput' Molecular Biology
-- Natural Language Processing
+
 
 ## Other Interests
 - Photography
-- Long distance running
+- Long-Distance Running
 - Hiking in the Scottish Highlands
 
 ## Languages
 - English (native)
 - German (native)
 - Spanish (learning)
+
+<!-- TODO: Awards section -->
 
 </section> 
 
@@ -50,39 +57,42 @@ Pursuing advanced studies in Informatics with a specialization in deep learning,
 
 ### MInf Informatics
 #### University of Edinburgh (2019 - 2024)
-<!-- TODO: 76% for Bachelor's -->
-<!-- TODO: bachelor's achieved 80% (A2) -->
-- Specializing in Deep Learning and engaging in research in distributed optimization of neural networks for Master’s Thesis
-- Achieved an 80% in my Bachelor's Thesis (see below) and 76% overall.
+- Specializing in Deep Learning and conducting research on distributed optimisation of neural networks for my Master’s Thesis
+- Achieved an outstanding 80% in my Bachelor's Thesis and 77% overall
 
 ### Exchange Year
 #### University of Hong Kong (2021 - 2022)
-- Engaged in a diverse set of coursework expanding computational and international perspectives
+- Selected for my first choice destination out of 800+ applicants.
+- Relevant topics: Machine Learning, AI Project, Computer Vision, Big data
+<!-- TODO: list relevant topics/courses -->
+<!-- - Engaged in a diverse set of coursework expanding computational and international perspectives -->
 
 
 ## Experience
 
 ### Teaching Assistant for Machine Learning
 #### The University of Edinburgh (AY 2023/24)
-- Facilitating student learning in ML through in-person and online assistance, providing clarifications and guidance on practical applications and theoretical concepts in ML techniques.
+- Guiding students in Machine Learning through in-person and online assistance, providing clarifications on theory and applications.
+<!-- TODO: more technical info -->
 
 ### Research Assistant Intern
 #### With Kartic Subr, The University of Edinburgh (Summer 2023)
-- Spearheaded research on using Graph Neural Networks for spectral coarsening of 3D meshes
-- Aiming to submit a paper later this year, or early 2024.
+- Led research on using Graph Neural Networks for spectral coarsening of 3D meshes.
+- Trained models on approximate gradients from physics simulations.
+<!-- - Plans to submit a paper later this year, or early 2024. -->
 
 ### Tutor for Machine Learning
 #### The University of Edinburgh (AY 2022/23)
-- Led a series of workshops for a Machine Learning course taken by 3rd and 4th-year informatics students to support their studies of ML techniques
+- Led a series of workshops for a Machine Learning course, supporting 3rd and 4th-year informatics students in their studies of ML techniques.
 
-### ML & Data Science Intern
+### ML Intern for Natural Language Processing
 #### Migrasia Global Solutions (Sep - Dec 2021)
-- Served as an ML Engineer developing analytical tools to aid in combatting forced labour amongst refugees and migrant workers in Hong Kong.
-<!-- - Engineered a multilingual sentiment analysis tool and a topic classifier for Facebook messages, and delved into investigating biases in Hong Kong's judiciary using data analytics -->
+- Developed NLP tools to combat forced labour among refugees and migrant workers in Hong Kong.
+- Engineered a multilingual sentiment analysis tool and topic classifier for Facebook messages, and investigated biases in Hong Kong's judiciary by processing judgements at scale.
 
 <!-- ### Founder and CEO
 #### build-yours.de (2017 - 2019)
-- Co-founded and propelled a tech start-up to profitability, offering DIY home accessory kits. I managed all facets from product engineering to interational supply chain, before transitioning to academic pursuits
+- Co-founded and propelled a tech start-up to profitability, offering DIY home accessory kits. I managed all facets from product engineering to international supply chain, before transitioning to academic pursuits
 
 ### Advanced Mathematics Teacher (Extracurricular)
 #### Mathematik in Bremen! e.V. (2015 - 2019)
@@ -92,18 +102,22 @@ Pursuing advanced studies in Informatics with a specialization in deep learning,
 
 </article>
 
-## Resarch Projects
-#### [See my website for more research projects](https://PaulsBitsAndBytes.com)
-### Master's Thesis: Distributed Optimisation of Deep Neural Networks
-Researching optimisers for the distributed training of deep neural networks, contributing to the field of scalable, efficient neural network training
+## Research Projects
+#### [For more research projects, visit my website](https://PaulsBitsAndBytes.com)
 
-### Spectral Coarsening using GNNs
-Explored using Graph Neural Networks to significantly accelerate the determination of parameter sets for 3D meshes, enhancing the efficiency of subsequent physics simulations on these meshes.
+### Master's Thesis: Distributed Optimisation of Deep Neural Networks  <span class="status">Ongoing</span>
+Researching optimisers for the distributed training of deep neural networks, contributing to the field of scalable, efficient neural network training.
+
+### Spectral Coarsening using GNNs  <span class="status">Ongoing</span>
+Explored the application of Graph Neural Networks to accelerate parameter set determination for 3D meshes, enhancing subsequent physics simulations' efficiency.
 
 <!-- TODO: Worked with Loss function with unknown derivative -->
 
-### Bachelor’s Thesis: Cross-Architecture Knowledge Distillation for Automatic Speech Recognition
-Achieved an **80% mark** developing knowledge distillation techniques for models with mismatched output dimensions, providing insights into effective model compression strategies and the tradeoffs between various architectures.
+### Bachelor’s Thesis: Cross-Architecture Knowledge Distillation for Automatic Speech Recognition  <span class="status">2022/23</span>
+Achieved an **80% mark** developing knowledge distillation techniques for models with mismatched output dimensions, providing insights into effective model compression strategies and architecture trade-offs.
+
+### Review of a Biologically Inspired Neural Network to Model PTSD and Eye Movement Desensitisation Reprocessing Therapy  <span class="status">Apr 2023</span>
+Coursework in Computational Cognitive Neuroscience, taught by Peggy Seriès. Achieved an 80% mark.
 
 
 <!-- ### Predicting Pollution in Krakow
