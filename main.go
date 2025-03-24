@@ -94,22 +94,28 @@ func myMdToHtml(mdBytes []byte, c chan string) {
 }
 
 func parseSass(fname string, c chan string) {
-	// Read input Sass string from file
-	scssBytes, err := ioutil.ReadFile(fname)
-	if err != nil {
-		log.Panic("Could not read input file: " + mdFname)
-	}
+    // Read input Sass string from file
+    scssBytes, err := ioutil.ReadFile(fname)
+    if err != nil {
+        log.Panic("Could not read input file: " + fname) // Also fixed variable name here
+    }
 
-	transpiler, _ := godartsass.Start(godartsass.Options{})
+    transpiler, err := godartsass.Start(godartsass.Options{})
+    if err != nil {
+        log.Panic("Failed to start Sass transpiler: ", err)
+    }
 
-	args := godartsass.Args{
-		OutputStyle: godartsass.OutputStyleExpanded,
-		Source:      string(scssBytes),
-	}
+    args := godartsass.Args{
+        OutputStyle: godartsass.OutputStyleExpanded,
+        Source:      string(scssBytes),
+    }
 
-	result, _ := transpiler.Execute(args)
+    result, err := transpiler.Execute(args)
+    if err != nil {
+        log.Panic("Failed to execute Sass transpiler: ", err)
+    }
 
-	c <- result.CSS
+    c <- result.CSS
 }
 
 func saveHtml(html string, fname string) {
