@@ -32,7 +32,6 @@ Previously, I obtained my Master of Informatics (MInf) in 2024 from the Universi
 - 80% thesis mark
 - 77% degree average
 
-{{REWRITTEN_CODE}}
 ## Research Interests
 - Modular Deep Learning
 - Efficient, Distributed Training & Inference
