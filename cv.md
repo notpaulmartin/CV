@@ -4,7 +4,8 @@
 <div class="head">
 
 - PhD Student
-- Language Technology Lab @ University of Cambridge
+- Language Technology Lab
+- University of Cambridge
 
 </div>
 
