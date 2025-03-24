@@ -3,14 +3,16 @@
 
 <div class="head">
 
-- The University of Edinburgh
-- MInf Informatics
+- PhD Student
+- Language Technology Lab @ University of Cambridge
 
 </div>
 
 <div class="profile">
 <!-- TODO: add info about computational neuro / comp' molecular bio -->
-I am an Informatics student at The University of Edinburgh, passionate about improving the efficiency of deep learning models to enable their further research and application by individuals and academia. With a strong academic background in this field, I actively contribute to foundational deep learning research for natural language processing.
+I am a PhD student in the Language Technology Lab at the University of Cambridge, focusing on <b>Modular and Efficient Deep Learning for NLP</b> under supervision by Ivan Vulić and Edoardo Ponti.
+<br><br>
+Previously, I obtained my Master of Informatics (MInf) in 2024 from the University of Edinburgh, where I worked on Distributed Training and Cross-Architecture Knowledge Distillation, supervised by Hao Tang.
 <!-- Outside of academia, I find inspiration in photography, long-distance running, and hiking in the Scottish Highlands. -->
 </div>
 
@@ -19,7 +21,7 @@ I am an Informatics student at The University of Edinburgh, passionate about imp
 <section class="left">
 
 ## Contact
-- [pmartin4@ed.ac.uk](mailto:pmartin4@ed.ac.uk)
+- [pm844@cam.ac.uk](mailto:pm844@cam.ac.uk)
 - +44 (0) 7785 296197
 
 ## Website
@@ -29,11 +31,11 @@ I am an Informatics student at The University of Edinburgh, passionate about imp
 - 80% thesis mark
 - 77% degree average
 
+{{REWRITTEN_CODE}}
 ## Research Interests
-- Foundational Deep Learning
+- Modular Deep Learning
+- Efficient, Distributed Training & Inference
 - Natural Language Processing
-- Computational Neuroscience
-- Comput' Molecular Biology
 
 
 ## Other Interests
@@ -48,12 +50,17 @@ I am an Informatics student at The University of Edinburgh, passionate about imp
 
 <!-- TODO: Awards section -->
 
-</section> 
+</section>
 
 
 <section class="right">
 
 ## Education
+
+### PhD at the Language Technology Lab
+#### University of Cambridge (2024 - 2028)
+- Researching modular architectures to improve the efficiency of deep learning models
+- Supervised by Ivan Vulić and Edoardo Ponti
 
 ### MInf Informatics
 #### University of Edinburgh (2019 - 2024)
@@ -105,16 +112,17 @@ I am an Informatics student at The University of Edinburgh, passionate about imp
 ## Research Projects
 #### [For more research projects, visit my website](https://PaulsBitsAndBytes.com)
 
-### Master's Thesis: Distributed Optimisation of Deep Neural Networks  <span class="status">Ongoing</span>
+### Master's Thesis: Distributed Optimisation of Deep Neural Networks  <span class="status">2023/2024</span>
 Researching optimisers for the distributed training of deep neural networks, contributing to the field of scalable, efficient neural network training.
 
-### Spectral Coarsening using GNNs  <span class="status">Ongoing</span>
-Explored the application of Graph Neural Networks to accelerate parameter set determination for 3D meshes, enhancing subsequent physics simulations' efficiency.
-
-<!-- TODO: Worked with Loss function with unknown derivative -->
 
 ### Bachelor’s Thesis: Cross-Architecture Knowledge Distillation for Automatic Speech Recognition  <span class="status">2022/23</span>
 Achieved an **80% mark** developing knowledge distillation techniques for models with mismatched output dimensions, providing insights into effective model compression strategies and architecture trade-offs.
+
+### Spectral Coarsening using GNNs  <span class="status">Aug 2023</span>
+Explored the application of Graph Neural Networks to accelerate parameter set determination for 3D meshes, enhancing subsequent physics simulations' efficiency. During a research internship with Kartic Subr.
+
+<!-- TODO: Worked with Loss function with unknown derivative -->
 
 ### Review of a Biologically Inspired Neural Network to Model PTSD and Eye Movement Desensitisation Reprocessing Therapy  <span class="status">Apr 2023</span>
 Coursework in Computational Cognitive Neuroscience, taught by Peggy Seriès. Achieved an 80% mark.
@@ -135,4 +143,3 @@ Coursework in Computational Cognitive Neuroscience, taught by Peggy Seriès. Ach
 
 <!-- ### Investigation into Bayesian Networks with Haskell
 #### Developed software to efficiently represent and calculate with interdependent Probabilistic Random Variables -->
-
