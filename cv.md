@@ -94,7 +94,7 @@ Previously, I obtained my Master of Informatics (MInf) in 2024 from the Universi
 
 ### ML Intern for Natural Language Processing
 #### Migrasia Global Solutions (Sep - Dec 2021)
-- Developed NLP tools to combat forced labour among refugees and migrant workers in Hong Kong.
+- Developed NLP tools to identify, monitor and combat forced labour among refugees and migrant workers in Hong Kong.
 - Engineered a multilingual sentiment analysis tool and topic classifier for Facebook messages, and investigated biases in Hong Kong's judiciary by processing judgements at scale.
 
 <!-- ### Founder and CEO
